@@ -47,6 +47,7 @@ def findPaths(caveLinks, canVisitAgain):
     
 
 print(caveLinks)
+print(findPaths(caveLinks, False))
 print(findPaths(caveLinks, True))
 print()
 input()
